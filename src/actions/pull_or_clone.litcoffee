@@ -26,3 +26,5 @@ For a repository, pull it or clone it by shelling.
               process.stdout.write stdout
               process.stderr.write stderr
               resolve repo
+      .catch (error) ->
+        console.error 'error:: pull_or_clone:: ', error
